@@ -2,7 +2,7 @@
 	"name": "hook-test",
 	"version": "0.0.1",
 	"scripts": {
-		"start": "node app",
+		"start": "node app --port %port --branch %branch --version %version",
 		"preshutdown": "touch preshutdown",
 		"postshutdown": "touch postshutdown",
 		"predeploy": "touch predeploy",
