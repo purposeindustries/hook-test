@@ -1,4 +1,3 @@
-setInterval(function() { console.log('Hello!', JSON.stringify(process.env))}, 1000);
 var http=require('http');
 
 http.createServer(function(req, res) {
