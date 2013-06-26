@@ -2,7 +2,11 @@
 	"name": "hook-test",
 	"version": "0.0.1",
 	"scripts": {
-		"start": "node app"
+		"start": "node app",
+		"preshutdown": "echo preshutdown",
+		"postshutdown": "echo postshutdown",
+		"predeploy": "echo predeploy",
+		"postdeploy": "echo postdeploy"
 	},
 	"dependencies": {
 		"colors": "*"
